@@ -628,12 +628,12 @@ video {
   grid-column-start: 4;
 }
 
-.col-start-8 {
-  grid-column-start: 8;
-}
-
 .col-start-7 {
   grid-column-start: 7;
+}
+
+.col-start-8 {
+  grid-column-start: 8;
 }
 
 .row-start-1 {
