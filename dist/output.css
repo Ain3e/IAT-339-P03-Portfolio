@@ -668,6 +668,22 @@ video {
   grid-row-start: 3;
 }
 
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+.row-start-6 {
+  grid-row-start: 6;
+}
+
+.row-start-7 {
+  grid-row-start: 7;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -755,6 +771,14 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -873,6 +897,10 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -920,6 +948,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-customGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 124 124 / var(--tw-bg-opacity));
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -943,6 +976,16 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .font-eiko {
