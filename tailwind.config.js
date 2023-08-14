@@ -17,12 +17,15 @@ module.exports = {
         '4xl': '2.5rem',
         '3xl': '2rem',
         '2xl': '1.5rem',
+        'text-base': '1rem',
       },
       lineHeight: {
-        '5xl': '137%',  // Change the line height to your desired value
-        '4xl': '137%',  // Change the line height to your desired value
-        '3xl': '137%',  // Change the line height to your desired value
-        '2xl': '137%',  // Change the line height to your desired value
+        '5xl': '3.425rem',  // Change the line height to your desired value
+        '4xl': '3.425rem ',  // Change the line height to your desired value
+        '3xl': '3.425rem ',  // Change the line height to your desired value
+        '2xl': '3.425rem ',  // Change the line height to your desired value
+        'text-base': '3.425rem',  // Change the line height to your desired value
+
 
       },
       margin: {

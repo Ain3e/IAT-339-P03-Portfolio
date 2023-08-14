@@ -693,6 +693,10 @@ video {
   margin-right: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -713,10 +717,6 @@ video {
   margin-right: auto;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -735,6 +735,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-24 {
@@ -771,14 +775,6 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -897,10 +893,6 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -943,14 +935,14 @@ video {
   background-color: currentColor;
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-customGray {
   --tw-bg-opacity: 1;
   background-color: rgb(124 124 124 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -976,16 +968,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 .font-eiko {
@@ -1044,6 +1026,10 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.leading-2xl {
+  line-height: 3.425rem ;
 }
 
 .text-black {
@@ -1181,10 +1167,6 @@ video {
     grid-column: span 6 / span 6;
   }
 
-  .md\:col-span-7 {
-    grid-column: span 7 / span 7;
-  }
-
   .md\:col-span-8 {
     grid-column: span 8 / span 8;
   }
@@ -1252,6 +1234,10 @@ video {
     grid-column: span 12 / span 12;
   }
 
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
   .lg\:col-span-5 {
     grid-column: span 5 / span 5;
   }
@@ -1274,6 +1260,10 @@ video {
 
   .lg\:col-start-11 {
     grid-column-start: 11;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
   }
 
   .lg\:col-start-4 {
@@ -1302,6 +1292,10 @@ video {
 
   .lg\:mt-14 {
     margin-top: 3.5rem;
+  }
+
+  .lg\:mt-72 {
+    margin-top: 18rem;
   }
 
   .lg\:mt-8 {
