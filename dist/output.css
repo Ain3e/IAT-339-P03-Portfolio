@@ -965,13 +965,13 @@ video {
 @font-face{
   font-family: 'PP-Eiko';
 
-  src: url('../dist/font/PPEiko-Regular.woff2') format('woff2'), url("../dist/font/PPEiko-Regular.woff") format("woff");
+  src: url('font/PPEiko-Regular.woff2') format('woff2'), url("font/PPEiko-Regular.woff") format("woff");
 }
 
 @font-face{
   font-family: 'Untitled-Sans';
 
-  src: url('../dist/font/UntitledSans-Regular.woff2') format('woff2'), url("../dist/font/UntitledSans-Regular.woff") format("woff");
+  src: url('font/UntitledSans-Regular.woff2') format('woff2'), url("font/UntitledSans-Regular.woff") format("woff");
 }
 
 .hover\:underline:hover {
